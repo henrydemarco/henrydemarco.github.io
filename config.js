@@ -5,7 +5,7 @@ var config = {
     markerColor: '#3FB1CE',
     theme: 'light',
     use3dTerrain: false,
-    title: 'The Title Text of this Story',
+    title: 'Berkeley, 94700',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     byline: 'By a Digital Storyteller',
     footer: 'Source: source citations, etc.',
@@ -16,7 +16,7 @@ var config = {
             hidden: false,
             title: 'Display Title',
             image: 'https://lh3.googleusercontent.com/fife/AAWUweVOmhXYglbTWlKR1Xv9xNfXZxhQrbrT7zQLDHxZICOZUt_C6RenLf_PGZVqVPYy17MSXpggPIa0NEsQFl0ahuaEv5xubkcpmtgPta8SoMFo2GCm3Ac3vcYz4IpkxrFwGUKHcvklPJRJTxKDWgkMjXYXZSpO05XiZ87r8x4iEyKmfE1ffgeYoX0FEe8NNjz7wxZ6bX-Qh8qP_FeYW2rl2_UYMsnB6N27xwetl6D7T651BWQ8KDQ49nVXHCvGlwmMm9EoFfuojd3DrV-v57-7prtWr9rID-VF2kgN1rEtylLJ68pgq8ZMOlYwu1yCU2d03NgQB2PmlEtTDWMSdBQX0zn24jyYumzaH5DLR6o6uqBXZNvD4Z0-SDnN7DtKRie6IPg3iGlkEQG2c7pPZ8V6Keojw2Nty3kMOCC6wJlUohQAvqKONbkdKOZL9i9sxylp35WgLjg2_10ZRC_oF1WL1yU1iiU-RjIAY8CV-Q9paMiZHSYOtbhODRFu4ZLgTFwVdmGddfdkM2CTNRd0D0o2kXwVw43jhW-OlMlwLkqLqbhdcg8WRlpiSSYxmWU3P3DBILBxbY83v_Dx_qlQg6cxU9p_QPDkxcT-Z0FybU-9DxY2koWMLJBJ8wmsLsmEbFZAvuVplvZgNvcCQpanAfSyB9J7c-TrpL6-LbWGQYcGCeptjUUPsHMJtkllnR60RXl8fK7UhVIAHsXz50l-Rjq1IDyxK77J9dWxlQ=w3000-h3000-ft',
-            audio:  src='https://www.allaboutbirds.org/guide/assets/sound/549157.mp3',
+            audio:  'https://www.allaboutbirds.org/guide/assets/sound/549157.mp3',
             description: 'Filler test bullshit description :)',
             location: {
                 center: [-122.27, 37.87],
