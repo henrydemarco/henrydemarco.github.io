@@ -46,8 +46,8 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Post Office Defense',
-            image: './path/to/image/source.png',
-            audio: 'wooo',
+            image: 'Images/000063280002.jpg',
+            audio: 'Audio/Sam_Interview_Q5.mp3',
             description: 'I need to figure out how to add separate paragraphs in these descriptions...',
             location: {
                 center: [-122.27005, 37.86889],
