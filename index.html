@@ -12,7 +12,7 @@
         body {
             margin:0;
             padding:0;
-            font-family: sans-serif;
+            font-family: Happy-Times, sans-serif;
         }
         a, a:hover, a:visited {
             color: #0071bc;
@@ -28,12 +28,13 @@
             width: 100%;
             position: relative;
             z-index: 5;
-            #height: 15rem;
+            min-height: 100vh;
             padding: 10 rem 0 10rem 0;
             #justify-content: center;
             #display: table;
-            font-family: Happy-Times-at-the-IKOB-master, sans-serif;
-        }
+            font-family: Happy-Times, sans-serif;
+            background-color: #335C67;
+s        }
         #header h1, #header h2, #header p {
             margin: 0;
             padding: 2vh 2vw;
@@ -62,16 +63,16 @@
             visibility: hidden;
         }
         .centered {
-            width: 50vw;
+            width: 80vw;
             margin: 0 auto;
         }
         .lefty {
-            width: 33vw;
-            margin-left: 5vw;
+            width: 40vw;
+            margin-left: 0vw;
         }
         .righty {
-            width: 33vw;
-            margin-left: 62vw;
+            width: 40vw;
+            margin-left: 60vw;
         }
         .fully {
             width: 100%;
@@ -79,25 +80,25 @@
         }
         .light {
             color: #E0DDCF;
-            background-color: #534B52;
+            background-color: #387780;
         }
         .dark {
             color: #fafafa;
-            background-color: #444;
+            background-color: #ACD8AA;
         }
         .step {
             padding-bottom: 50vh;
             /* margin-bottom: 10vh; */
-            opacity: 0.25;
+            opacity: 0.99;
         }
         .step.active {
-            opacity: 0.9;
+            opacity: 0.99;
         }
 
         .step div {
             padding:  25px 50px;
             line-height: 25px;
-            font-size: 16px;
+            font-size: 15.5px;
         }
 
         .step img {
@@ -117,9 +118,19 @@
             touch-action: unset;
         }
         
-        @fontface {
-        font-family: Happy-Times-at-the-IKOB-master;
-        src: 'fonts/Happy-Times-at-the-IKOB-master/fonts/webfonts/happy-times-NG_regular_master_web.ttf';
+        @font-face {
+            font-family: Happy-Times;
+            src: url('fonts/Happy-Times-at-the-IKOB-master/fonts/otf/happy-times-NG_regular_master.otf');
+        }
+        @font-face {
+            font-family: Happy-Times;
+            src: url('fonts/Happy-Times-at-the-IKOB-master/fonts/webfonts/happy-times-NG_bold_master.otf');
+            font-weight: bold;
+        }
+        @font-face {
+            font-family: Happy-Times;
+            src: url('fonts/Happy-Times-at-the-IKOB-master/fonts/webfonts/happy-times-NG_italic_master.otf');
+            font-style: italic;
         }
 
     </style>
@@ -286,6 +297,8 @@
         var marker = new mapboxgl.Marker({ color: config.markerColor });
         marker.setLngLat(config.chapters[0].location.center).addTo(map);
     }
+    
+    
 
     // instantiate the scrollama
     var scroller = scrollama();

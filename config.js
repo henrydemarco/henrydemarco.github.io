@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/henrydemarco/cl007r5cq006614qv4q6fqw5b',
+    style: 'mapbox://styles/henrydemarco/cl12m1xzx00ch15nw6gt4vza3',
     accessToken: 'pk.eyJ1IjoiaGVucnlkZW1hcmNvIiwiYSI6ImNreTI5MmJhejBhb3IydW50OWljMmJrbzQifQ.H3yOJpf8uf_RspT_MfndoA',
     showMarkers: true,
     markerColor: '#3FB1CE',
@@ -12,7 +12,7 @@ var config = {
     chapters: [
         {
             id: 'identifier1',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'Occupy San Francisco',
             image: 'Images/SF_DSLR.jpeg',
@@ -22,7 +22,7 @@ var config = {
                 center: [-122.39549, 37.79286],
                 zoom: 14,
                 pitch: 70,
-                bearing: 50
+                bearing: 50,
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -70,7 +70,6 @@ var config = {
             image: 'Images/james_smile.jpg',
             audio:  'Audio/James_Reason_for_FTCFTH.mp3',
             description: 'It was also at Occupy where Mike Zint met Sarah Menefee, poet and longtime organizer for the unhoused. The two first conceived of an organization called First They Came For The Homeless (FTCFTH) at the Starbucks on California and Drumm St. in San Francisco, where Menefee taught youth poetry workshops. The newly born group’s motto was clear: “Homeless, not helpless. Stop the war on the poor!” FTCFTH’s first event was an occupation in front of the Macy’s at Union Square, protesting ‘Sit/Lie,’ Section 168 of the San Francisco Police Code, the city’s Civil Sidewalk Ordinance. The ordinance makes it unlawful, with certain exceptions (like a baby in a stroller), to sit or lie on the City’s public sidewalks between 7 a.m. and 11 p.m. “Public if you’re rich,” says the flier that Mike distributed. “The commons belongs to all!”',
-
             location: {
                 center: [-122.39647, 37.79367],
                 zoom: 16,
@@ -130,7 +129,7 @@ var config = {
             hidden: false,
             title: 'Post Office Sale',
             image: 'Gotta find a picture for this...',
-            audio: 'Audio/Tony_BPOD.mp3 (does not yet exit)',
+            audio: 'Audio/Tony_BPOD.mp3',
             description: 'On June 25, 2012, Berkeleyside reported that the United States Postal Service was planning to sell the historic Berkeley Main Post Office on Allston Way. USPS intended to shift core responsibilities to the existing Berkeley Destination Delivery Unit, and pursue a new location in downtown Berkeley for retail operations. Around the same time, USPS had listed dozens of historic post offices for sale, citing operating deficits. Despite the concerted efforts of local groups across the country, several historic post offices had already been sold. The prospects of protecting Berkeley’s Main Post Office looked grim, especially given the fact that the planned sale was being categorized as “relocation” as opposed to “closure,” which further limited legal possibilities for halting the process. When the Berkeley public learned of the Postal Service’s intentions, an organization called Save the Berkeley Post Office quickly formed to resist the planned sale. In February of 2013, when USPS representatives met with the Berkeley public regarding the planned sale, they encountered an outpouring of public resistance, including a large rally. The Berkeley City Council also passed a resolution in March of 2013 calling on USPS to postpone the sale for a year. A year later, USPS announced that they were moving forward with the sale.',
             location: {
                 center: [-122.27005, 37.86889],
@@ -150,7 +149,7 @@ var config = {
             hidden: false,
             title: 'Post Office Defense',
             image: 'Images/flower_with_petals.jpg',
-            audio: 'Audio/Tony_BPOD.mp3 (does not yet exit)',
+            audio: 'Audio/Tony_BPOD.mp3',
             description: 'By May, several of the groups involved in efforts to protect the Post Office, and resist privatization more broadly, came together to form a coalition called the Berkeley Post Office Defenders (BPOD “pronounced bee-pod”). The group’s members included members of Strike Debt Bay Area, Occupy Oakland, and Save the Berkeley Post Office. The coalition announced their “Direct Defense of the Berkeley Post Office" on July 26, 2013. Protesters from the coalition set up information tables and tents at the Post Office, inviting the public to engage in dialogue. For those involved in the resistance, what was at stake extended far beyond one post office: this was about combating austerity, about refusing to sit idly while public resources were shorn away in the name of ‘cutting operational costs.’ Many worried that these sorts of sell-offs would constitute the start of the privatization of the US Postal Service. BPOD’s timeline was explicit from the start: the protest would end when the sale was reversed, and no earlier.',
             location: {
                 center: [-122.27005, 37.86889],
@@ -170,7 +169,7 @@ var config = {
             hidden: false,
             title: 'Staples Defense',
             image: '',
-            audio:  'https://www.allaboutbirds.org/guide/assets/sound/549157.mp3',
+            audio:  '',
             description: 'Meanwhile, Mike Zint built a lean-to against the Staples on Shattuck to protest the outsourcing of US Postal Service duties to Staples. Soon, others joined in. His group was an early incarnation of First They Came for the Homeless, and its first organized action since its inception in 2011. The Downtown Berkeley Staples was part of a pilot program to offload USPS duties to Staples, another corner cut in the sweeping austerity of the Obama administration. If successful, the program could enable USPS to cut costs by passing off key responsibilities to Staples workers, whose undervalued labor was more cost-effective than that of unionized postal workers. The Staples occupation existed as a 24/7 protest against the pilot program, as well as a way to further inform the public of the plan to sell the post office on Allston Way.',
             location: {
                 center: [-122.26813, 37.86637],
@@ -190,7 +189,7 @@ var config = {
             hidden: false,
             title: 'Second Post Office Occupation',
             image: 'Images/000063280002.jpg',
-            audio: 'Audio/Sam_Interview_Q5.mp3',
+            audio: '',
             description: 'During Mike Zint’s time outside the Shattuck Avenue Staples, he met like-minded organizers involved in the ongoing post office defense. BPOD’s mission aligned with that of FTCFTH, so collaboration between the two groups came naturally. Zint’s camp moved to the Main Post Office at Allston Way to contribute to the defense through an occupation — Mike’s specialty. The sale was still set to proceed in 2014, so that November, BPOD and FTCFTH began an active, prolonged camp in the spirit of Occupy, drawing in homeless activists and calling on former Occupiers. And, as with previous occupations, their residency was a prime opportunity to highlight the criminalization of homelessness more broadly. Tents provided not only shelter — they were also a technique of public assembly. ',
             location: {
                 center: [-122.27005, 37.86889],
@@ -350,7 +349,7 @@ var config = {
                 hidden: false,
                 title: 'Liberty City',
                 image: 'Images/paul_120mm.jpg',
-                audio: 'Audio/Paul_KernalsofHereThere.mp3 (does not exist yet)',
+                audio: 'Audio/Paul_KernelsofHereThere.mp3',
                 description: 'Paul Kealoha Blake recalls the role of the post office and Civic Center occupations in uniting and strengthening early FTCFTH organizers. “First They Came for the Homeless, which was Mike’s group, was a no-nonsense group. I mean, yeah, you can climb up on trees and do whatever you want, but Mike Zint was no-nonsense,” says Blake. “It was First They Came for the Homeless before it was the Here / There encampment. They booted everyone off of the post office steps —great time, incidentally, all of these times were great times —kicked everyone off, and the kernels of Here / There began percolating up.”',
                 location: {
                     center: [-122.27317, 37.86924],
@@ -530,7 +529,7 @@ var config = {
                 hidden: false,
                 title: 'Location #2',
                 image: 'Images/ben_120mm_2.jpg',
-                audio: 'Audio/Ben_Kits.mp3 (does not yet exist)',
+                audio: 'Audio/Ben_Kits.mp3',
                 description: 'Ben Royer remembers the treatment FTCFTH received during The Poor Tour well: the evictions were disruptive and destabilizing, and resulted in members losing important belongings. The solution Ben came up with was to create mobile kits with only the bare necessary supplies. For Ben, these kits were a strategic adaptation to the constant evictions.',
                 location: {
                     center: [-122.26819, 37.86873],
@@ -590,7 +589,7 @@ var config = {
                 hidden: false,
                 title: 'Fifth Poor Tour Location',
                 image: 'Images/paul_35mm_1.jpg',
-                audio: 'Audio/Paul_KernelsofHereThere.mp3 (does not exist yet)',
+                audio: 'Audio/Paul_KernelsofHereThere.mp3',
                 description: 'Community supporters like Paul Blake and Barbara Brust formed lasting bonds with members of FTCFTH through their involvement in The Poor Tour.',
                 location: {
                     center: [-122.26982, 37.85105],
@@ -630,7 +629,7 @@ var config = {
                 hidden: false,
                 title: 'Seventh Poor Tour Location',
                 image: 'Images/tony_120mm_1.jpg',
-                audio: 'Audio/Tony_PoorTour.mp3 (does not exist yet)',
+                audio: 'Audio/Tony_PoorTour.mp3',
                 description: 'Tony was one of the many supporters, providing aid in the most direct ways possible, showing up in his truck at early morning evictions to help FTCFTH members protect their property from seizure.',
                 location: {
                     center: [-122.27045, 37.86905],
@@ -670,7 +669,7 @@ var config = {
                 hidden: false,
                 title: '9th Poor Tour Location',
                 image: './path/to/image/source.png',
-                audio: 'Audio/Tony_PoorTourRaids.mp3 (does not yet exist)',
+                audio: 'Audio/Tony_PoorTourRaids.mp3',
                 description: 'For Tony, observing these evictions and providing support greatly contributed to his understanding of what groups like FTCFTH were up against, and how far the City of Berkeley was willing to go to criminalize homelessness and erase visible poverty: “I witnessed many of these incidents, which were to me kind of frightening, the intensity of it. And I am coming from a home — I know I am going home to a bed. To see people struggle to hold on to their possessions and to see someone in exodus…it happened to Mike Zint, where they took his medicine —his inhalers—he had lung issues; that is almost like a death sentence.”',
                 location: {
                     center: [-122.27055, 37.86998],
@@ -770,7 +769,7 @@ var config = {
                 hidden: false,
                 title: '14th Poor Tour Location',
                 image: 'Images/fire_trails_sunset.jpg',
-                audio: 'Audio/Dan_PT_Achievements.mp3 (gotta do)',
+                audio: 'Audio/Dan_PT_Achievements.mp3',
                 description: 'In the end, FTCFTH camps on The Poor Tour were evicted at least 14 times. With every eviction, members of FTCFTH lost vital, life-sustaining medicine and possessions. But, as many have pointed out, The Poor Tour was also a victory, in many senses. For one, their size and support effectively exhausted enforcement. During the tour, many unhoused people gained shelter, community, and the opportunity to make a statement. “The one thing that the Poor Tour did do, that makes me feel good, is that I know there are people alive today that wouldn’t be alive if it wasn’t for the fact that they could get a little bit of shelter,” said Dan. “And there’s people who are sane that wouldn’t be sane if they weren’t allowed to get a little bit of privacy in their tents, and that means a lot to me.”',
                 location: {
                     center: [-122.26828, 37.85653],
@@ -990,7 +989,7 @@ var config = {
                 hidden: false,
                 title: 'The Lorin District',
                 image: './path/to/image/source.png',
-                audio: 'Audio/Tony_Neighborhood.mp3 (does not exist yet)',
+                audio: 'Audio/Tony_Neighborhood.mp3',
                 description: '“This neighborhood had a huge impact on me and in how I view neighborhoods. We moved into this house in 1980 and it was a black community — primarily black, but also other people of color and a working class community,” says Tony Wilkinson. Tony and his wife Margy moved to Lorin in 1980. They gradually learned more about the area’s history from their neighbors. “It is a community with a rich history, it was redlined, held back, held down, and definanced… But in spite of that, this community has been able to thrive and be a beloved community.” Miss Richie played a pivotal role in introducing Tony to the people and organizations that make Lorin.',
                 location: {
                     center: [-122.27065, 37.85119],
@@ -1050,7 +1049,7 @@ var config = {
                 hidden: false,
                 title: 'Friends of Adeline Begins',
                 image: './path/to/image/source.png',
-                audio: 'Audio/Tony_FriendsofAdelineStart.mp3 (does not exist yet)',
+                audio: 'Audio/Tony_FriendsofAdelineStart.mp3',
                 description: 'The Friends of Adeline pinpoints its beginnings to an announcement from the city in 2015. “The city put out a call, an announcement that they were going to do this project to address housing, that this transit hub here was a prime place to do housing and solve the housing issue and revitalize the neighborhood,” recalls Tony. “So Margy and I went to the meeting; it was right down the block at the Senior Center and we knew a few people, but most people we did not know, and it seemed like some people were there with their laptops interested in real estate and then there were some people just from the community.”',
                 location: {
                     center: [-122.27291, 37.85436],
@@ -1090,7 +1089,7 @@ var config = {
                 hidden: false,
                 title: 'Friends of Adeline Begins',
                 image: './path/to/image/source.png',
-                audio: 'Audio/Tony_Mayor_and_Max_Anderson.mp3 (does not exist yet)',
+                audio: 'Audio/Tony_Mayor_and_Max_Anderson.mp3',
                 description: 'During the meeting, Tony remembers one woman who got up and said something to the effect of, “Gentrification’s been happening and a lot of families have been pushed out. How’s this project going to address the needs of Black families to remain in South Berkeley, to have a place in South Berkeley or to come back?” The mayor said something about how his hands were tied, how he couldn’t control rents or prices of housing or land. Then, by several accounts of those present at that fateful meeting, he said, “We would love for you to stay. But if you can’t, maybe you’d be happier somewhere else.” That was the beginning and end of the response to the question of pushout ––the callousness sent shockwaves. But then Councilmember Max Anderson suggested that the frustrated community members take action independently to develop a vision of their needs, which they could then present to the city. Max even suggested they come up with a name for their group, something like, ‘Friends of Adeline.’',
                 location: {
                     center: [-122.27291, 37.85436],
@@ -1110,7 +1109,7 @@ var config = {
                 hidden: false,
                 title: 'Friends of Adeline Meeting - South Berkeley Community Church',
                 image: './path/to/image/source.png',
-                audio: 'Audio/Tony_FriendsofAdeline3.mp3 (does not exist yet)',
+                audio: 'Audio/Tony_FriendsofAdeline3.mp3',
                 description: 'By the time the meeting concluded, attendees from the neighborhood knew that they needed an organization. They weren’t ready to leave the Senior Center, and were upset about what they had just heard. They began to have small gatherings, then several bigger meetings at the South Berkeley Community Church, at which over 100 people came and had conversations in small groups about housing, about cultural issues, about the right to return, about repairing the city’s neglect. The group began to envision a mission statement for their community. Then, the city came forward with a new budget. The Friends of Adeline got a hold of it and did an analysis –– they found that two thirds of the cuts to the old budget were directly solely at the nonprofits that serve their South Berkeley community.',
                 location: {
                     center: [-122.27267, 37.85033],
@@ -1130,7 +1129,7 @@ var config = {
                 hidden: false,
                 title: 'Friends of Adeline Meeting - South Berkeley Community Church',
                 image: './path/to/image/source.png',
-                audio: 'Audio/Tony_FriendsofAdeline4.mp3 (does not exist yet)',
+                audio: 'Audio/Tony_FriendsofAdeline4.mp3',
                 description: '"Friends of Adeline, when we saw what they were doing to the budget, it really revealed that the intention of the city was not honorable, was exploitative, and was the opposite of renewal, it is removal, it is part of a pushing people out,” says Tony. The group insisted that the discussion of the city’s budget should not be in a small room, but accessible to the public that it affected. They made a flier with pictures of young people from Youth Spirit Artworks sitting in front of the Malcolm X mosaic they had completed, and a question on top: ‘Is Berkeley’s Budget Racist?’ The flier talked about the cuts, those affected by the cuts, and invited people to come and speak up for their community at the Longfellow middle school auditorium. Young people, organizers, business owners, people all around the neighborhood packed into the auditorium, and all eyes were looking down on the mayor and the council. At one point, a woman chastised the mayor for looking at his phone when the young people were speaking, and the crowd applauded. The people were alert, listening, watching.',
                 location: {
                     center: [-122.27267, 37.85033],
@@ -1150,7 +1149,7 @@ var config = {
                 hidden: false,
                 title: 'Friends of Adeline Meeting - South Berkeley Community Church',
                 image: './path/to/image/source.png',
-                audio: 'Audio/Tony_Project_Halted.mp3 (does not exist yet)',
+                audio: 'Audio/Tony_Project_Halted.mp3',
                 description: 'The Friends of Adeline mounted a successful defense. “At some point, the project was stopped in the middle of the process, they [the city] took a timeout, they fired the company that was working on outreach, and they said ‘oh they were not getting their stuff in on-time,’” says Tony. “But I think what they were worried about was, they wer not getting the results that they were buying. They were spending a lot of money, a $175,000 grant to have this study, and it was coming out all wrong, so they just stopped it and dismissed this thing, and then tried to figure out how to restart it.”',
                 location: {
                     center: [-122.27267, 37.85033],
@@ -1445,18 +1444,98 @@ var config = {
                 onChapterExit: []
             },
             {
-                id: 'identifier30',
+                id: 'identifier30_1',
                 alignment: 'right',
                 hidden: false,
-                title: 'H/T Eviction: Unaffiliated Camp',
+                title: 'Camp Politics and Infrastructure',
                 image: './path/to/image/source.png',
-                audio: 'audio here',
-                description: 'Second camp where an eviction notice was posted',
+                audio: 'Audio/Stacey_Camp_Achievements.mp3',
+                description: 'The camp’s goal was to provide proof that the people best fitted to advocate and organize the unhoused, were the unhoused themselves. It was an effort of liberation. “What we achieved through the ‘occupy’ [at Here/There] was changing the reality of what being homeless is,” says Stacey. “And prior to that, it wasn’t happening like that out there. By the time people got out there, that was it. The only way they got out of that was if people from the outside came and got them out.” <br> <br> Settling at the Here / There site allowed the camp the stability needed to develop more sophisticated infrastructure and policies. As with all prior FTCFTH camps, Here / There practiced consensus-based self governance and enforced several simple, yet firm rules including: sobriety (excluding marijuana, for medicinal purposes), cleanliness, no violence or fighting, noise curfews, attendance of weekly meetings, and more. The camp’s rules were designed to be flexible enough so as to not be coercive, yet strictly enforced enough to maintain a safe and organized atmosphere.',
                 location: {
-                    center: [-122.2709, 37.84806],
-                    zoom: 18,
+                    center: [-122.27142, 37.84738],
+                    zoom: 17,
                     pitch: 0,
-                    bearing: -5
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_2',
+                alignment: 'right',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: './path/to/image/source.png',
+                audio: 'Audio/Julio_CampRules.mp3',
+                description: 'Settling at the Here / There site allowed the camp the stability needed to develop more sophisticated infrastructure and policies. As with all prior FTCFTH camps, Here / There practiced consensus-based self governance and enforced several simple, yet firm rules including: sobriety (excluding marijuana, for medicinal purposes), cleanliness, no violence or fighting, noise curfews, attendance of weekly meetings, and more. The camp’s rules were designed to be flexible enough so as to not be coercive, yet strictly enforced enough to maintain a safe and organized atmosphere. <br> <br> “You just had to read them and agree to them, basically. Oh yeah, the breaking of a rule would gather you a strike, and if you got three strikes, you’d be out,” says Julio, a current resident of Here / There. “And sometimes we’d have to kick people out. And sometimes they’d leave quickly, other times we would just have to go through some shit just to get them out.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_3',
+                alignment: 'right',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: 'Images/kent_portrait.jpg',
+                audio: 'Audio/Kent_CampOrganization.mp3',
+                description: '“We organized the tents so they faced away from the street on either side of the lot we were in,” recalls Kent, a former camp member. “Your entrance didn’t face the street. And we had a row, down the middle of the tents, there were tents on either side, where you could walk and go between, tent to tent. We always kept it clear of possessions. I just set myself up with a tent of adequate size, and put my furnishings that I had in it. And I could leave during the day and not even lock my tent or nothing, and everything would still be there when I got back. And that was a good feeling. I liked that, and we set up a cantina area in a big garage / car cover, awning. And we set it up with propane, we set it up with water. We had a water system where we could dump the used water on the garden we were planting. And we just took care of business.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_4',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: 'Images/toan_120mm_1.jpg',
+                audio: 'Audio/Toan_CampRules1.mp3',
+                description: '“Because we have different people that come in the camp and go. The camp doesn’t discriminate or have prejudices against different ethnicities, or ages,” says Toan Nguyen, a former member and active advocate for the unhoused. “It’s not just sober. I want to extend the ‘stable’ part of it, and the function.” Many people who come to the camp have already seen the city’s official services –– the first-come-first-serve shelters and resources that enforce curfews and leave the latecomers in the cold. “It’s more of a controlling atmosphere, with the city-run programs,” he explains. “But the camp provides a stable place for people to get back on their feet, just to make it more clear.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_5',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: 'Images/toan_35mm.jpg',
+                audio: 'Audio/Toan_CampRules2.mp3',
+                description: '“People are unhoused for different reasons,” says Toan. “We don’t ask them why they’re unhoused, they can share if they want to. But it can be personal, I mean people don’t want to share Oh, because I have a disability, or I have mental health… or I got evicted. Some things can be triggering or emotional or personal, so they don’t want to share that… but since it’s a community, like a tight-knit community, eventually people share in conversation. People share and we get to know each other, and we get to know how they are and how we can help one another.” <br> <br> Then, there’s the sobriety element –– a strict rule that has become synonymous with the Here/There camp. “So it’s clean, sober, but marijuana is tolerated. People there use marijuana for medicinal purposes, and I don’t consider marijuana a bad drug, so it’s fine, as long as they don’t abuse it, of course,” says Toan. “But the reason why the camp is strict on alcohol and hard substances is because, as you know, it affects people’s behavior. Whether they’re trying to do right, or whether their intentions are good or not, alcohol will really influence their behavior. To be in a sober environment, I think it helps everyone.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
                 },
                 mapAnimation: 'flyTo',
                 rotateAnimation: false,
