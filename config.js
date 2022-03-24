@@ -1750,8 +1750,8 @@ var config = {
                 hidden: false,
                 title: 'Camp Politics and Infrastructure',
                 image: '',
-                audio: '',
                 description: 'Leslie, on the other hand, actually worked to lengthen the probationary period during his time at camp. He felt that an extended probationary period would be more effective for flagging potentially disruptive people before they had a chance to cause structural problems. <br> <br> “I did make changes in governance by proposing amendments or changing roles like increasing a probationary period from two weeks to a month, was one thing I did,” recalls Leslie. “We had a few folks that did not start acting out until about a month and I just thought it would be a good idea to have it be a month long cuz that way we could weed out possible… it seemed like people took about a month to act out if they were gonna act out. I did not even think about what the other fella [Sam] said when we were at the park about how that stresses people out to be on probation. Never give up much of a thought when I proposed that rule but I guess it would.”',
+                audio: '',
                 location: {
                     center: [-122.27142, 37.84738],
                     zoom: 15,
