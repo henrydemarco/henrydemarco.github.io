@@ -176,6 +176,18 @@ s        }
         });
     }
 
+    function addAudioMp3(record) {
+        var audioWrapper = document.createElement('audio');
+        audioWrapper.innerText = 'Your browser does not support the audio tag.';
+        audioWrapper.controls = true;
+        var source = document.createElement('source');
+        source.src = record.audio;
+        source.type = 'audio/mp3';
+        audioWrapper.appendChild(source);
+        audioWrapper.style = 'width: 100%';
+        return audioWrapper;
+    }
+
     var story = document.getElementById('story');
     var features = document.createElement('div');
     features.setAttribute('id', 'features');
@@ -223,16 +235,13 @@ s        }
         }
 
         if (record.audio) {
-            var audioWrapper = document.createElement('audio');
-            audioWrapper.innerText = 'Your browser does not support the audio tag.';
-            audioWrapper.controls = true;
-            var source = document.createElement('source');
-            source.src = record.audio;
-            source.type = 'audio/mp3';
-            audioWrapper.appendChild(source);
+            var audioWrapper = addAudioMp3(record);
             chapter.appendChild(audioWrapper);
-            audioWrapper.style = 'width: 100%';
-            console.log(audioWrapper);
+        }
+
+        if (record.audio2) {
+            var audioWrapper = addAudioMp3(record);
+            chapter.appendChild(audioWrapper);
         }
 
         if (record.description) {
