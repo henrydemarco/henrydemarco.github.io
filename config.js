@@ -1531,7 +1531,427 @@ var config = {
                 title: 'Camp Politics and Infrastructure',
                 image: 'Images/toan_35mm.jpg',
                 audio: 'Audio/Toan_CampRules2.mp3',
-                description: '“People are unhoused for different reasons,” says Toan. “We don’t ask them why they’re unhoused, they can share if they want to. But it can be personal, I mean people don’t want to share Oh, because I have a disability, or I have mental health… or I got evicted. Some things can be triggering or emotional or personal, so they don’t want to share that… but since it’s a community, like a tight-knit community, eventually people share in conversation. People share and we get to know each other, and we get to know how they are and how we can help one another.” <br> <br> Then, there’s the sobriety element –– a strict rule that has become synonymous with the Here/There camp. “So it’s clean, sober, but marijuana is tolerated. People there use marijuana for medicinal purposes, and I don’t consider marijuana a bad drug, so it’s fine, as long as they don’t abuse it, of course,” says Toan. “But the reason why the camp is strict on alcohol and hard substances is because, as you know, it affects people’s behavior. Whether they’re trying to do right, or whether their intentions are good or not, alcohol will really influence their behavior. To be in a sober environment, I think it helps everyone.”',
+                description: '“People are unhoused for different reasons,” says Toan. “We don’t ask them why they’re unhoused, they can share if they want to. But it can be personal, I mean people don’t want to share <i> Oh, because I have a disability, or I have mental health… or I got evicted. </i> Some things can be triggering or emotional or personal, so they don’t want to share that… but since it’s a community, like a tight-knit community, eventually people share in conversation. People share and we get to know each other, and we get to know how they are and how we can help one another.” <br> <br> Then, there’s the sobriety element –– a strict rule that has become synonymous with the Here/There camp. “So it’s clean, sober, but marijuana is tolerated. People there use marijuana for medicinal purposes, and I don’t consider marijuana a bad drug, so it’s fine, as long as they don’t abuse it, of course,” says Toan. “But the reason why the camp is strict on alcohol and hard substances is because, as you know, it affects people’s behavior. Whether they’re trying to do right, or whether their intentions are good or not, alcohol will really influence their behavior. To be in a sober environment, I think it helps everyone.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_6',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'In some cases, the stability afforded by the camp was literally life saving. “Well, the memories that I have of Here and There are that it was a stable place to stay while I waited for housing,” says Ben Royer. “If it hadn’t been for the Here / There camp, I probably would never have survived. Those are the kind of memories that I like to think of when I think of Here and There.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_7',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'By creating and enforcing these rules, the camp gave its members the chance to improve their wellbeing and work towards security. Sam described stabilization as the primary ‘job’ of camp residents. “You’re waking up, you’re smoking pot, probably, you’re drinking coffee, then you eat something and then you go walk around town a bit. Your job at the Here / There camp is to try to stabilize: that’s your job. Stabilization for a lot of people happens by smokin’ pot and drinkin’ coffee and keeping to themselves. That’s how it’s accomplished. That’s what you hope for. There’s not a lot of responsibility going on there, or anything like that. That’s not what it’s there for — it’s a stabilizing environment, not an ambitious environment.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_8',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'The camp also practiced collective decision making, holding weekly meetings on Sundays where everyone abided by the principles of consensus. These meetings addressed a wide variety of camp business, such as deciding on desired improvements and managing the use of collective funds. Meetings were mandatory. Leslie and Tim spoke about their memories of attending meetings, and described their perspectives on the process.',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_8',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'The camp also practiced collective decision making, holding weekly meetings on Sundays where everyone abided by the principles of consensus. These meetings addressed a wide variety of camp business, such as deciding on desired improvements and managing the use of collective funds. Meetings were mandatory. Leslie and Tim spoke about their memories of attending meetings, and described their perspectives on the process.',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_9',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Meetings could become heated, and some found the requirements of consensus frustrating. One particularly polarizing feature of meetings was the ‘block’ function. Members could block any action that they objected to, which would prevent that from proceeding until the block was removed. Essentially, any member of the camp could veto a decision. Leslie recounted the purpose and value of blocks, though he never used one himself. <br> <br> “There was structure there and I really liked the way the government worked, where everybody got a chance to have a say at a meeting and you could – not veto, what was the word – Block? Yeah. You could block proposals with your single vote if you had some inside information that the whole camp knew nothing about regarding a subject. You could fill everybody in while you blocked it. So you would block proposals that would endanger the camp. Somebody you know would not be able to follow the rules, you could propose a block as the camp might be unfamiliar with them but you might be familiar with them from the streets.  <span style="color: black"> It really did give everybody a chance, that kind of government that we had. </span>"',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_10',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Others questioned whether blocks actually contributed anything valuable to the process. Alex, a former camp member, believes that blocks ultimately did more harm than good. “I don’t necessarily think that a consensus governance is per-say ineffective. However, that block function… it has to be done very, very carefully, and you have to make sure that people who are doing it are able to go into it from the mental and emotional maturity of where ‘we have to reach a consensus.’',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_11',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Sunday meetings involved a fluid, variable form of governance. For some, meetings were an opportunity for learning and growth. “I enjoy the process of figuring out how we can, within ourselves (or how I can within myself), let go of notions of hierarchy and control, and autocracy, or this idea that there is someone who knows the answer and that person is the leader and they need to be somehow glorified,” says Tim. “I try to throw off all of those, in my opinion, false ideas, and embrace what I like to think of as a natural hierarchy that is based on compassion, based on experience, based on sweat equity.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_12',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Meetings had another notable function: screening new members. The camp essentially conducted its own outreach, as members found and invited other unhoused people to join the camp. These would-be new members must attend Sunday meetings and introduce themselves before they are approved to formally enter camp. The process of entering camp was not immediate, even after attending a weekly meeting. The camp had a probationary period before those attempting to join were given full membership, which was intended to screen out any inappropriate behavior by a consensus vote. <br> <br> Toan provided more details on the entry process for new members. “So at the Here / There camp… it’s not without its bureaucracy of course, so in order to come in, people have to… unless it’s urgent or an emergency basis, and someone from the camp can vouch for them, they’re required to go through a process of coming in, which is attend the meeting, introduce themself and answer questions,” says Toan. “And if everyone is willing to give them a chance, or if there’s no objections, they’re able to come in, live inside, and then people will make sure they have a tent, beddings, and a space, everything they need. And they get put on probation period, which is four weeks now. At the time that I was there, I think it was just two weeks. But Leslie extended it. During the probation period we ask them to attend a meeting, just to follow up to see how they’re doing, any help they need, or if there’s any issues with them. And after the probation period, they get membership status, which is good, in a way, so they know that they can stay there longer.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_13',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: '“So the environment will kill you,” says Sam, referring to the harsh noises and attitudes of Berkeley’s downtown corridors. “By the time you’ve come to Here / There, you’ve been killed by the environment. Somebody finds you, brings you, sees if you can hold it together for a few days, and then you get to stay.” <br> <br> As with the ‘block’ function, opinions on the value of the probationary period differed from member to member. Some felt that the probationary period was valuable for protecting the camp from possible threats. Others believed it was too harsh, and further traumatized people who had already experienced tremendous adversity.',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_14',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: '“The probationary period. So you’re finally in the camp, you finally have something, you’re part of a group –– you haven’t been a part of the group forever! You’re in a very solitary existence living in a doorway! Now you’re a part of the group, so your natural reaction is to circle the wagon, close it in, this is mine, ours, boom, boom, boom,” says Sam. “That don’t work for a protest movement. A protest movement, you’re gonna have a lot of people fall out, you need to grow and grab people in. I was never a big fan of the probationary period afterwards, I always felt like if you made it the first few days without causing any real problems, we’re probably going to be able to work it out. But for me, the probationary period after that, it was like a reinforcement: Hey, you’re now part a group, and you gotta think about others. And that was good.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_15',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Leslie, on the other hand, actually worked to lengthen the probationary period during his time at camp. He felt that an extended probationary period would be more effective for flagging potentially disruptive people before they had a chance to cause structural problems. <br> <br> “I did make changes in governance by proposing amendments or changing roles like increasing a probationary period from two weeks to a month, was one thing I did,” recalls Leslie. “We had a few folks that did not start acting out until about a month and I just thought it would be a good idea to have it be a month long cuz that way we could weed out possible… it seemed like people took about a month to act out if they were gonna act out. I did not even think about what the other fella [Sam] said when we were at the park about how that stresses people out to be on probation. Never give up much of a thought when I proposed that rule but I guess it would.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_16',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Camp members also occupied governance roles. “I ended up being proposed to be the treasurer by Joe at a meeting, which took me by surprise, I was not expecting it,” says Leslie. “I would hold relatively small amounts of cash for the camp, petty cash. And I kept a detailed log of the money: what it was spent on and who got what and how much change came back.” <br> <br>',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_17',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Beyond administrative functions like meetings, managing new entries, and handling funds, camp members worked to make the space functional and pleasant. The camp’s physical infrastructure greatly contributed to the waves of media attention it attracted over the years. Eventually, the camp featured functional solar panels and batteries, a kitchen tent, and a garden. The camp’s organized appearance also helped draw in new members. Alex remembers being impressed with the camp’s structure, which contributed to him joining. “It was probably the cleanest and best camp you could go to, that I had seen,” he says. “The fact that it was fairly well organized, and there were solar panels and things was really great. The political nature of it really made me excited about what we could do, and I was really excited about doing all the city council meetings.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_18',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Despite the camp’s political reputation, not everyone was personally interested in making a change within the larger picture. “I think for a lot of people there, it wasn’t totally political. I think a lot of people just kind of wanted housing for themselves,” says Alex. “And I think that’s fine, I don’t think it necessarily had to be political. The existence of people without houses is political itself.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_19',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: '“The people there were good people. Some of them were derelicts, some of them weren’t,” says Kent. “But, you know, the definition of a ‘derelict’ is someone who doesn’t care about themselves. Most of these people just care about getting a home.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_20',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Despite the camp’s organizational achievements, basic struggles remained. One of the most enduring challenges was waste disposal. The provision or denial of trash collection is one of the most significant powers that cities have over encampments. The accumulation of trash at a camp contributes to complaints from the surrounding community, so a camp’s ability to dispose of its own trash is paramount for its longevity. Residents of Here / There took on the responsibility of trash disposal, which was a lengthy and difficult process during the earlier periods of the camp. <br> <br> “I realized that the best way to keep anyone from yelling at you was to do something useful for the group,” said Sam, “I started taking out the garbage every day because we had no garbage service at the time: what I did was I used the cans that are at the bus stops.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_21',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Eventually, the City began to provide assistance with trash pickup. “They also developed ways to work with the city in terms of collecting trash,” says Tony. “They got a guy from the city who would say ‘Here are the bags, if you put your trash in these orange bags, I will pick them up. Have them at this place, at this time, boom.’ Trash did not accumulate, which means there are no rats.” In addition to trash disposal, controlling rats was a vital element of daily camp maintenance. The camp went to incredible lengths to ensure that the ever-present rats are kept at bay.',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_22',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: '“Rats are nearly blind,” explains Stacey. “They function on their sense of smell.” Cleaning up the scent trails of the camp is essential to derailing a rat population. It’s a bit of an arms race –– one needs to outsmart, outwitt, outplay the enemy. But the enemy is formidable, as Stacey knows. “Urbanized animals are different from wild animals, and rats are really smart. There is no way I can emphasize just how smart rats are. If you are thinking you outsmarted a rat, I guarantee you, that rat has got your ass. He has already won. So as soon as you think you outsmarted the rat, you are done.”',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_23',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'How to get rid of rats 101: <br> (by Stacey) <br> 1. Isolate living quarters <br> 2. Constantly rake the ground to disrupt the rat scent paths <br> 3. Keep it clean',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_24',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'Current camp resident Atlas has taken a humane position on the disposal of rats, trapping them alive and releasing them far from camp. But even he admits that the gestation period of the species poses a constant threat to the wellbeing of the camp. Campers are in agreement: the city waits for rat infestations to overtake camps, because rats are a commonly cited reason for eviction. The city does not provide rat traps or fly strips for the camp –– camp members have innovated and adapted to keep vermin at bay.',
+                location: {
+                    center: [-122.27142, 37.84738],
+                    zoom: 15,
+                    pitch: 0,
+                    bearing: 15
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier30_25',
+                alignment: 'left',
+                hidden: false,
+                title: 'Camp Politics and Infrastructure',
+                image: '',
+                audio: '',
+                description: 'The camp garnered significant support by cultivating a positive public image. Mayor Jesse Arreguín even publicly voiced support for the camp on a number of occasions. In one short statement written by the mayor in 2017, entitled “No Easy Answers When It Comes to Solving Homeless Crisis,” the mayor wrote, “For most of the year, it has been my position that the encampment at HERE/THERE should be allowed to remain. For most of its existence, it has been a well-run intentional community, supported by local residents and businesses.” And yet no amount of organization, cleanliness, or public support could prevent the camp from being targeted for eviction. In late October of 2017, BART, whose train line juts out over the camp, issued an eviction notice for Here / There.',
                 location: {
                     center: [-122.27142, 37.84738],
                     zoom: 15,
