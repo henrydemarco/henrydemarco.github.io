@@ -176,12 +176,12 @@ s        }
         });
     }
 
-    function addAudioMp3(record) {
+    function addAudioMp3(audioFile) {
         var audioWrapper = document.createElement('audio');
         audioWrapper.innerText = 'Your browser does not support the audio tag.';
         audioWrapper.controls = true;
         var source = document.createElement('source');
-        source.src = record.audio;
+        source.src = audioFile;
         source.type = 'audio/mp3';
         audioWrapper.appendChild(source);
         audioWrapper.style = 'width: 100%';
@@ -235,12 +235,12 @@ s        }
         }
 
         if (record.audio) {
-            var audioWrapper = addAudioMp3(record);
+            var audioWrapper = addAudioMp3(record.audio);
             chapter.appendChild(audioWrapper);
         }
 
         if (record.audio2) {
-            var audioWrapper = addAudioMp3(record);
+            var audioWrapper = addAudioMp3(record.audio2);
             chapter.appendChild(audioWrapper);
         }
 
