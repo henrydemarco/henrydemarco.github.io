@@ -65,6 +65,7 @@ s        }
         .centered {
             width: 80vw;
             margin: 0 auto;
+            padding: 300;
         }
         .lefty {
             width: 40vw;
@@ -234,20 +235,26 @@ s        }
             chapter.appendChild(image);
         }
 
+        if (record.description) {
+            var story = document.createElement('p');
+            story.innerHTML = record.description;
+            chapter.appendChild(story);
+        }
+
         if (record.audio) {
             var audioWrapper = addAudioMp3(record.audio);
             chapter.appendChild(audioWrapper);
         }
 
+        if (record.description2) {
+            var story = document.createElement('p');
+            story.innerHTML = record.description2;
+            chapter.appendChild(story);
+        }
+
         if (record.audio2) {
             var audioWrapper = addAudioMp3(record.audio2);
             chapter.appendChild(audioWrapper);
-        }
-
-        if (record.description) {
-            var story = document.createElement('p');
-            story.innerHTML = record.description;
-            chapter.appendChild(story);
         }
 
         container.setAttribute('id', record.id);
