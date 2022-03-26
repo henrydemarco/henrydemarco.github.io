@@ -15,7 +15,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Occupy San Francisco',
-            image: 'Images/SF_DSLR.jpeg',
+            image: 'golden_gate.jpeg',
             audio:  '',
             description: 'When Occupy came to San Francisco in 2011, Mike Zint was living in Golden Gate Park. He got word about the good trouble brewing in the Financial District, and moved to the epicenter of that dissent. Cities across the country were in the midst of the same tumult –– citizens were angry about the corruption, the recession, the foreclosures, and the crippling debt. Tent cities bloomed quickly and they offered shelter, food, and porta potties. In a city notable for its numerous anti-homeless laws, Occupy San Francisco was a respite for its unhoused, as well as an opportunity to make change.',
             location: {
@@ -46,9 +46,9 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Occupy San Francisco',
-            image: 'Images/SF_Film.jpg',
-            audio:  'audio here',
-            description: 'James Cartmill met Mike Zint at the Federal Reserve Bank of San Francisco, one of the main strategic outposts of Occupy SF. To James, Mike Zint was a “true hero,” a captain of Occupy who honed his skills as a political strategist and activist in one of the most zealous occupations in the country. James remembers Occupy SF as a concerted battle against the Federal Reserve and the manifold abuses of the American financial system. Through Occupy, participants created an organic, living alternative to the totalizing capitalist systems that defined American life. For the duration of these occupations, activists carved out spaces for protest and experimental living in the administrative centers of capitalist repression, places like Wall Street and San Francisco’s Financial District. Occupiers’ profound experiences inspired outgrowths into other movements and experiments. <br> <br> It was also at Occupy where Mike Zint met Sarah Menefee, poet and longtime organizer for the unhoused. The two first conceived of an organization called First They Came For The Homeless (FTCFTH) at the Starbucks on California and Drumm St. in San Francisco, where Menefee taught youth poetry workshops. The newly born group’s motto was clear: “Homeless, not helpless. Stop the war on the poor!” FTCFTH’s first event was an occupation in front of the Macy’s at Union Square, protesting ‘Sit/Lie,’ Section 168 of the San Francisco Police Code, the city’s Civil Sidewalk Ordinance. The ordinance makes it unlawful, with certain exceptions (like a baby in a stroller), to sit or lie on the City’s public sidewalks between 7 a.m. and 11 p.m. “Public if you’re rich,” says the flier that Mike distributed. “The commons belongs to all!”',
+            image: 'Images/james__smile.jpg',
+            audio:  '',
+            description: 'James Cartmill met Mike Zint at the Federal Reserve Bank of San Francisco, one of the main strategic outposts of Occupy SF. To James, Mike Zint was a “true hero,” a captain of Occupy who honed his skills as a political strategist and activist in one of the most zealous occupations in the country. James remembers Occupy SF as a concerted battle against the Federal Reserve and the manifold abuses of the American financial system. Through Occupy, participants created an organic, living alternative to the totalizing capitalist systems that defined American life. For the duration of these occupations, activists carved out spaces for protest and experimental living in the administrative centers of capitalist repression, places like Wall Street and San Francisco’s Financial District. Occupiers’ profound experiences inspired outgrowths into other movements and experiments.',
             location: {
                 center: [-122.39647, 37.79367],
                 zoom: 16,
@@ -62,7 +62,27 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'identifier_2_2',
+            id: 'identifier_3_2',
+            alignment: 'left',
+            hidden: false,
+            title: 'Occupy San Francisco',
+            image: 'Images/SF_Film.jpg',
+            audio:  'Audio/James_Reason_for_FTCFTH.mp3"',
+            description: 'It was also at Occupy where Mike Zint met Sarah Menefee, poet and longtime organizer for the unhoused. The two first conceived of an organization called First They Came For The Homeless (FTCFTH) at the Starbucks on California and Drumm St. in San Francisco, where Menefee taught youth poetry workshops. The newly born group’s motto was clear: “Homeless, not helpless. Stop the war on the poor!” FTCFTH’s first event was an occupation in front of the Macy’s at Union Square, protesting ‘Sit/Lie,’ Section 168 of the San Francisco Police Code, the city’s Civil Sidewalk Ordinance. The ordinance makes it unlawful, with certain exceptions (like a baby in a stroller), to sit or lie on the City’s public sidewalks between 7 a.m. and 11 p.m. “Public if you’re rich,” says the flier that Mike distributed. “The commons belongs to all!',
+            location: {
+                center: [-122.39647, 37.79367],
+                zoom: 16,
+                pitch: 70,
+                bearing: 50
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'identifier_2_4_2',
             alignment: 'right',
             hidden: false,
             title: '',

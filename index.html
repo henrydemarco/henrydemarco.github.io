@@ -65,7 +65,6 @@ s        }
         .centered {
             width: 80vw;
             margin: 0 auto;
-            padding: 300;
         }
         .lefty {
             width: 40vw;
@@ -352,20 +351,7 @@ s        }
             .onStepEnter(response => {
                 var chapter = config.chapters.find(chap => chap.id === response.element.id);
                 response.element.classList.add('active');
-
-                // update this value (in pixels) to change amount of padding
-                var paddingSize = 500;
-                var padding = {
-                    'left': chapter.alignment == 'left' ? paddingSize : 0,
-                    'right': chapter.alignment == 'right' ? paddingSize : 0,
-                }
-                map[chapter.mapAnimation || 'flyTo']({
-                    center: chapter.location.center,
-                    bearing: chapter.location.bearing,
-                    zoom: chapter.location.zoom,
-                    pitch: chapter.location.pitch,
-                    padding: padding,
-                });
+                map[chapter.mapAnimation || 'flyTo'](chapter.location);
                 if (config.showMarkers) {
                     marker.setLngLat(chapter.location.center);
                 }
