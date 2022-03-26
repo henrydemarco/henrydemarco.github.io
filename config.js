@@ -14,7 +14,7 @@ var config = {
             id: 'identifier1',
             alignment: 'left',
             hidden: false,
-            title: 'Occupy San Francisco',
+            title: 'Occupy San Francisco :)',
             image: 'Images/golden_gate.jpeg',
             audio:  '',
             description: 'When Occupy came to San Francisco in 2011, Mike Zint was living in Golden Gate Park. He got word about the good trouble brewing in the Financial District, and moved to the epicenter of that dissent. Cities across the country were in the midst of the same tumult –– citizens were angry about the corruption, the recession, the foreclosures, and the crippling debt. Tent cities bloomed quickly and they offered shelter, food, and porta potties. In a city notable for its numerous anti-homeless laws, Occupy San Francisco was a respite for its unhoused, as well as an opportunity to make change.',
