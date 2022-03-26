@@ -15,7 +15,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Occupy San Francisco',
-            image: 'golden_gate.jpeg',
+            image: 'Images/golden_gate.jpeg',
             audio:  '',
             description: 'When Occupy came to San Francisco in 2011, Mike Zint was living in Golden Gate Park. He got word about the good trouble brewing in the Financial District, and moved to the epicenter of that dissent. Cities across the country were in the midst of the same tumult –– citizens were angry about the corruption, the recession, the foreclosures, and the crippling debt. Tent cities bloomed quickly and they offered shelter, food, and porta potties. In a city notable for its numerous anti-homeless laws, Occupy San Francisco was a respite for its unhoused, as well as an opportunity to make change.',
             location: {
@@ -67,7 +67,7 @@ var config = {
             hidden: false,
             title: 'Occupy San Francisco',
             image: 'Images/SF_Film.jpg',
-            audio:  'Audio/James_Reason_for_FTCFTH.mp3"',
+            audio:  'Audio/James_Reason_for_FTCFTH.mp3',
             description: 'It was also at Occupy where Mike Zint met Sarah Menefee, poet and longtime organizer for the unhoused. The two first conceived of an organization called First They Came For The Homeless (FTCFTH) at the Starbucks on California and Drumm St. in San Francisco, where Menefee taught youth poetry workshops. The newly born group’s motto was clear: “Homeless, not helpless. Stop the war on the poor!” FTCFTH’s first event was an occupation in front of the Macy’s at Union Square, protesting ‘Sit/Lie,’ Section 168 of the San Francisco Police Code, the city’s Civil Sidewalk Ordinance. The ordinance makes it unlawful, with certain exceptions (like a baby in a stroller), to sit or lie on the City’s public sidewalks between 7 a.m. and 11 p.m. “Public if you’re rich,” says the flier that Mike distributed. “The commons belongs to all!',
             location: {
                 center: [-122.39647, 37.79367],
@@ -147,7 +147,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Post Office Sale',
-            image: 'Gotta find a picture for this...',
+            image: 'Post Office Pic',
             audio: 'Audio/Tony_BPOD.mp3',
             description: 'On June 25, 2012, Berkeleyside reported that the United States Postal Service was planning to sell the historic Berkeley Main Post Office on Allston Way. USPS intended to shift core responsibilities to the existing Berkeley Destination Delivery Unit, and pursue a new location in downtown Berkeley for retail operations. Around the same time, USPS had listed dozens of historic post offices for sale, citing operating deficits. Despite the concerted efforts of local groups across the country, several historic post offices had already been sold. The prospects of protecting Berkeley’s Main Post Office looked grim, especially given the fact that the planned sale was being categorized as “relocation” as opposed to “closure,” which further limited legal possibilities for halting the process. When the Berkeley public learned of the Postal Service’s intentions, an organization called Save the Berkeley Post Office quickly formed to resist the planned sale. In February of 2013, when USPS representatives met with the Berkeley public regarding the planned sale, they encountered an outpouring of public resistance, including a large rally. The Berkeley City Council also passed a resolution in March of 2013 calling on USPS to postpone the sale for a year. A year later, USPS announced that they were moving forward with the sale. <br> <br> By May, several of the groups involved in efforts to protect the Post Office, and resist privatization more broadly, came together to form a coalition called the Berkeley Post Office Defenders (BPOD “pronounced bee-pod”). The group’s members included members of Strike Debt Bay Area, Occupy Oakland, and Save the Berkeley Post Office. The coalition announced their “Direct Defense of the Berkeley Post Office" on July 26, 2013. Protesters from the coalition set up information tables and tents at the Post Office, inviting the public to engage in dialogue. For those involved in the resistance, what was at stake extended far beyond one post office: this was about combating austerity, about refusing to sit idly while public resources were shorn away in the name of ‘cutting operational costs.’ Many worried that these sorts of sell-offs would constitute the start of the privatization of the US Postal Service. BPOD’s timeline was explicit from the start: the protest would end when the sale was reversed, and no earlier.',
             location: {
@@ -199,8 +199,30 @@ var config = {
             mapAnimation: 'flyTo',
             rotateAnimation: false,
             callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: 'california-33',
+                    opacity: .8
+                },
+                {
+                    layer: 'california-33-line',
+                    opacity: 1
+                },
+                {
+                    layer: 'satellite',
+                    opacity: .5
+                }
+              ],
+              onChapterExit: [
+                {
+                    layer: 'california-33',
+                    opacity: 0
+                },
+                {
+                    layer: 'california-33-line',
+                    opacity: 0
+                }
+              ]
         },
         {
             id: 'other-identifier_5',
