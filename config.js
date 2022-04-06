@@ -62,7 +62,7 @@ var config = {
             id: 'identifier1',
             alignment: 'left',
             hidden: false,
-            title: 'Occupy San Francisco :)',
+            title: 'Occupy San Francisco',
             image: 'Images/golden_gate.jpeg',
             audio:  '',
             description: 'When Occupy came to San Francisco in 2011, Mike Zint was living in Golden Gate Park. He got word about the good trouble brewing in the Financial District, and moved to the epicenter of that dissent. Cities across the country were in the midst of the same tumult –– citizens were angry about the corruption, the recession, the foreclosures, and the crippling debt. Tent cities bloomed quickly and they offered shelter, food, and porta potties. In a city notable for its numerous anti-homeless laws, Occupy San Francisco was a respite for its unhoused, as well as an opportunity to make change.',
@@ -699,7 +699,7 @@ var config = {
                 alignment: 'left',
                 hidden: false,
                 title: 'Poor Tour Location #11',
-                image: '',
+                image: 'Images/street_with_fog.jpg',
                 audio: '',
                 description: 'Over and over, the police evicted camps, often descending on FTCFTH in the early hours of the morning. Multiple members and supporters shared their experiences of these “raids,” recalling the disorientation and panic they felt as a result of these eviction tactics. Again and again, camps were flipped through, possessions were seized, and activists were forced to start from scratch in a new location. Community supporters were woken up in the early hours of the morning by alerts from campers, and would rush to the site of the eviction to monitor police and assist with packing and preserving possessions. At every stop, Dan and other supporters were there to provide new tents and stoves to replace the items seized in the evictions. Dan recalls being woken up to respond to night-time evictions at least 13 times during this period.',
                 location: {
@@ -1044,8 +1044,8 @@ var config = {
                 hidden: false,
                 title: '',
                 image: '',
-                audio: 'Audio/Tony_FriendsofAdeline3.mp3',
-                audio2: 'Audio/Tony_FriendsofAdeline4.mp3',
+                audio: 'Audio/Tony_FriendsofAdeline2.mp3',
+                audio2: 'Audio/Tony_FriendsofAdeline3.mp3',
                 description: 'By the time the meeting concluded, attendees from the neighborhood knew that they needed an organization. They weren’t ready to leave the Senior Center, and were upset about what they had just heard. They began to have small gatherings, then several bigger meetings at the South Berkeley Community Church, at which over 100 people came and had conversations in small groups about housing, about cultural issues, about the right to return, about repairing the city’s neglect. The group began to envision a mission statement for their community. Then, the city came forward with a new budget. The Friends of Adeline got a hold of it and did an analysis –– they found that two thirds of the cuts to the old budget were directly solely at the nonprofits that serve their South Berkeley community.',
                 description2: '"Friends of Adeline, when we saw what they were doing to the budget, it really revealed that the intention of the city was not honorable, was exploitative, and was the opposite of renewal, it is removal, it is part of a pushing people out,” says Tony. The group insisted that the discussion of the city’s budget should not be in a small room, but accessible to the public that it affected. They made a flier with pictures of young people from Youth Spirit Artworks sitting in front of the Malcolm X mosaic they had completed, and a question on top: ‘Is Berkeley’s Budget Racist?’ The flier talked about the cuts, those affected by the cuts, and invited people to come and speak up for their community at the Longfellow middle school auditorium. Young people, organizers, business owners, people all around the neighborhood packed into the auditorium, and all eyes were looking down on the mayor and the council. At one point, a woman chastised the mayor for looking at his phone when the young people were speaking, and the crowd applauded. The people were alert, listening, watching.',
                 location: {
@@ -1207,7 +1207,7 @@ var config = {
                 alignment: 'right',
                 hidden: false,
                 title: '',
-                image: '',
+                image: 'Images/rules_of_conduct.jpg',
                 audio: 'Audio/Tony_Intentional_Community.mp3',
                 description: 'They were on BART property now, and the raids had stopped. They could stay for more than a few nights, and the camp began to envision permanence. Zint had long pushed for the city to create a sanctioned encampment site, and here was an opportunity to show proof of that possibility. The camp focused on making an exemplary space for stability and self-advocacy. “It was an intentional community, they had rules: there is no alcohol, no heavy drugs, and also a kind of social contract where you helped each other and you also worked with the community,” says Tony. “One thing Mike Zint always talked about — was that stability is the first, number one thing for when you find yourself without a home, without a space, without a shelter. You have to establish stability, so that you can catch your breath, be calm, and make good decisions about what is going to happen.” The camp stressed responsibility and cleanliness, earning it the support of other community members and the attention of local and national media outlets.',
                 location: {
@@ -1291,7 +1291,7 @@ var config = {
                 alignment: 'center',
                 hidden: false,
                 title: 'Camp Politics and Infrastructure',
-                image: './path/to/image/source.png',
+                image: 'Images/julio.jpg',
                 audio: 'Audio/Stacey_Camp_Achievements.mp3',
                 audio2: 'Audio/Julio_CampRules.mp3',
                 description: 'The camp’s goal was to provide proof that the people best fitted to advocate and organize the unhoused, were the unhoused themselves. It was an effort of liberation. “What we achieved through the ‘occupy’ [at Here/There] was changing the reality of what being homeless is,” says Stacey. “And prior to that, it wasn’t happening like that out there. By the time people got out there, that was it. The only way they got out of that was if people from the outside came and got them out.”',
@@ -1561,7 +1561,7 @@ var config = {
                 alignment: 'center',
                 hidden: false,
                 title: 'Waste Management',
-                image: '',
+                image: 'Images/public_works2.jpg',
                 description: 'Even with the camp’s organizational achievements, basic struggles remained. One of the most enduring challenges was waste disposal. The provision or denial of trash collection is one of the most significant powers that cities have over encampments. The accumulation of trash at a camp contributes to complaints from the surrounding community, so a camp’s ability to dispose of its own trash is paramount for its longevity. Residents of Here / There took on the responsibility of trash disposal, which was a lengthy and difficult process during the earlier periods of the camp. <br> <br> “I realized that the best way to keep anyone from yelling at you was to do something useful for the group,” said Sam, “I started taking out the garbage every day because we had no garbage service at the time: what I did was I used the cans that are at the bus stops.”',
                 description2: 'Eventually, the City began to provide assistance with trash pickup. “They also developed ways to work with the city in terms of collecting trash,” says Tony. “They got a guy from the city who would say ‘Here are the bags, if you put your trash in these orange bags, I will pick them up. Have them at this place, at this time, boom.’ Trash did not accumulate, which means there are no rats.” In addition to trash disposal, controlling rats was a vital element of daily camp maintenance. The camp went to incredible lengths to ensure that the ever-present rats are kept at bay.',
                 location: {
@@ -1581,7 +1581,7 @@ var config = {
                 alignment: 'center',
                 hidden: false,
                 title: 'Pest Control',
-                image: '',
+                image: 'Images/rat_traps.jpg',
                 audio: 'Audio/Stacey_outsmart_a_rat.mp3',
                 audio2: 'Audio/Stacey_rats_and_people.mp3',
                 description: '“Rats are nearly blind,” explains Stacey. “They function on their sense of smell.” Cleaning up the scent trails of the camp is essential to derailing a rat population. It’s a bit of an arms race –– one needs to outsmart, outwitt, outplay the enemy. But the enemy is formidable, as Stacey knows. “Urbanized animals are different from wild animals, and rats are really smart. There is no way I can emphasize just how smart rats are. If you are thinking you outsmarted a rat, I guarantee you, that rat has got your ass. He has already won. So as soon as you think you outsmarted the rat, you are done.” <br> <br> <span style="color: purple"> How to Get Rid of Rats 101 <br> (by Stacey) <br> <br> 1. Isolate living quarters <br> 2. Constantly rake the ground to disrupt the rat scent paths <br> 3. Keep it clean </span>',
@@ -1663,7 +1663,7 @@ var config = {
                 alignment: 'right',
                 hidden: false,
                 title: 'Temporary Restraining Order',
-                image: '',
+                image: 'Images/toan_and_dog.jpg',
                 audio: '',
                 description: 'Toan had joined Here / There during the week that the camp received a public notice of eviction. “So I felt that either I’m gonna stay and stick it out and support, or I’ll just leave, be a supporter on the outside,” he remembers. “After a day, I decided to stay, so we all organized to respond to the city eviction notice. We reached out to attorneys, and people that have knowledge of legal matters, and we asked some people if they were willing to be plaintiffs so we can put a name on to proceed with the restraining order. I was one of the volunteers, along with Clark Sullivan and Jim Squatter.” <br> <br> Those three FTCFTH members filed for a TRO (temporary restraining order) in federal court to buy additional time to make their case that the camp should not be evicted. From the “Injuries" section of the document they filed: “If plaintiffs are forced to move, homeless people who have no alternate shelter would be forced into the elements without shelter, causing irreparable injury.” The camp sought “an injunctive relief enjoying defendant and their agents from arresting plaintiffs or removing personal items and/or preventing conduct by plaintiffs to sleep, eat, and maintain shelter at the property commonly known as: 3351 Adeline St, Berkeley, CA also known as the “Here-There" sign.” <br> <br> A temporary order issued by Judge Alsup on October 25 prevented BART from evicting Here / There for a week. On the same day, BART police evicted the eastern camp. Judge Alsup would hear from BART and from the Here/There camp (represented by lawyer EmilyRose Johns) on October 31 for a follow-up hearing.',
                 location: {
@@ -1723,7 +1723,7 @@ var config = {
                 alignment: 'left',
                 hidden: false,
                 title: 'Camp Scattering',
-                image: 'Images/fence_spike.jpg',
+                image: 'Images/here_fence.jpg',
                 audio: 'Audio/Miss_Richie_Fence.mp3',
                 audio2: 'Audio/Tim_Redwoods.mp3',
                 description: 'During the weeks following BART’s intended eviction, residents of Here / There separated between Old City Hall (former site of ‘Liberty City’), Aquatic Park in West Berkeley, and land on Adeline Street close to the original site. In January of 2018, a few months after the original camp vacated the area around the sculpture, BART installed a tall black fence topped with sharp spikes. BART’s official rationale for installing the fence was to protect the right of way of the train, and to prevent anyone from entering the area around the tracks, and the City of Berkeley signed off on the fence design. This fence was the second to encircle an area formerly occupied by FTCFTH: the first was the metal fence installed by USPS at the Berkeley Main Post Office. Many viewed this fence as symbolically and practically dangerous. <br> <br> The fence was also costly: the SF Chronicle reported in February of 2018 that the total cost was $120,000. Housed residents of Lorin were similarly unhappy with the fence. “BART fenced it [the camp] off with a fence that would not be in North Berkeley or in the hills,” says Miss Richie. “They would not put that unsightly fence there.”',
@@ -1745,7 +1745,7 @@ var config = {
                 alignment: 'right',
                 hidden: false,
                 title: 'The Fence',
-                image: 'Images/here_fence.jpg',
+                image: 'Images/HERE.jpg',
                 audio: '',
                 description: 'Fences are always a way of demarcating space, and drawing the boundaries between ‘yours’ and ‘mine,’ ‘here’ and ‘there.’ In this case, BART’s fence was a way of enclosing what had functionally existed as public space. The fence communicated that this land’s only acceptable use was to buffer the tracks, delineating distance between BART and the surrounding community. This message contradicted the “HERETHERE” sculpture, a piece of public art paid for by the City of Berkeley, and presumably intended to welcome the public. As many articles and public statements have observed, the fence surrounding the installation significantly obscures the letters. <br> <br> In fact, the artist responsible for the installation has publicly criticized the fence in multiple interviews. Steve Gillman called the fence “a very Trumpian move by BART.” Talking to Street Spirit, Gillman said of the fence “It separates the work rather than allowing it to be a part of the rest of the world. And so it has completely changed. The piece is no longer what it was intended to be, it is no longer what Berkeley bought.” There can be no doubt in campers’ minds that the fence exists as a condemnation of the Here / There camp, physically marking the space that the camp once was and can never be again, at least without harsh resistance from BART. <br> <br> Steve Gillman and others spoke up to express their frustration with the fence at a City Council Meeting on January 23, 2018. At the time, Ben Bartlett, a Berkeley Councilmember, stated that “affirmative measures” were being taken to remove the “prison-style fence.” Councilmembers Ben Bartlett and Cheryl Davila co-sponsored an agenda item to remove the fence, which Bartlett went on to call “ugly,” “depressing,” and “unnecessary.” A group of neighbors started a petition to remove the fence and replace it with a playground on the site. As of February 2022, the fence remains.',
                 location: {
@@ -1827,12 +1827,32 @@ var config = {
                 title: '',
                 image: '',
                 audio: '',
-                description: 'On November 29, 2018, the City posted an eviction notice for Aquatic Park, citing a violation of the law that prohibits lodging on public property. In December, the City of Berkeley evicted the camp, dismantling all remaining structures and destroying all possessions left behind. This eviction occurred after Martin v. Boise. In accordance with Martin v. Boise, Berkeley provided the Aquatic Park camp with 27 vouchers for shelter beds at the Dorothy Day House Shelter in the Veteran’s Building. Mike Zint speculated that the City of Berkeley was consciously maintaining shelter vacancies for the purpose of justifying evictions. If the city held onto a number of shelter vacancies comparable to the size of one camp, it could legally evict a camp at any time. Only <i>one</i> of the 27 vouchers was accepted. <br> <br> Often, when camps are evicted and residents are offered shelter vouchers, they are forced to accept strict rules and abandon necessary possessions that cannot be taken in. Even more restrictive are the shelter occupation limits, which often range from one to 30 nights. Though shelters can provide a reprieve from the elements, residents are often unable to secure permanent housing during their stays, and end up returning to the street without the vital possessions discarded to abide by shelter restrictions. As with any eviction, the closing of the Aquatic Park camp caused chaos and panic for residents, and left many without solid options for shelter. A few residents returned to the Here / There camp, which was now located closer to the sidewalk on Adeline Street, outside the fence.',
+                description: 'On November 29, 2018, the City posted an eviction notice for Aquatic Park, citing a violation of the law that prohibits lodging on public property. In December, the City of Berkeley evicted the camp, dismantling all remaining structures and destroying all possessions left behind. This eviction occurred after a landmark case called <i>Martin v. Boise</i>. In this case, the Ninth Circuit Court of Appeals (which holds jurisdiction over nine states, including California) ruled that cities cannot enforce anti-camping laws unless they have an adequate number of shelter beds for the impacted population. In accordance with <i>Martin v. Boise</i>, Berkeley provided the Aquatic Park camp with 27 vouchers for shelter beds at the Dorothy Day House Shelter in the Veteran’s Building. Mike Zint speculated that the City of Berkeley was consciously maintaining shelter vacancies for the purpose of justifying evictions. If the city held onto a number of shelter vacancies comparable to the size of one camp, it could legally evict a camp at any time. Only one of the 27 vouchers was accepted. <br> <br> Often, when camps are evicted and residents are offered shelter vouchers, they are forced to accept strict rules and abandon necessary possessions that cannot be taken in. Even more restrictive are the shelter occupation limits, which often range from one to 30 nights. Though shelters can provide a reprieve from the elements, residents are often unable to secure permanent housing during their stays, and end up returning to the street without the vital possessions discarded to abide by shelter restrictions. As with any eviction, the closing of the Aquatic Park camp caused chaos and panic for residents, and left many without solid options for shelter. A few residents returned to the Here / There camp, which was now located closer to the sidewalk on Adeline Street, outside the fence.',
                 location: {
                     center: [-122.29568, 37.85009],
                     zoom: 15.5,
                     pitch: 65,
                     bearing: -100
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'chapter_break8',
+                alignment: 'full',
+                hidden: false,
+                title: '',
+                image: '',
+                audio:  '',
+                description: '<span style="font-size: 60px"><b>Chapter 9: Some Legal Context</b></span>',
+                location: {
+                    center: [-122.27144, 37.8478],
+                    zoom: 14,
+                    pitch: 65,
+                    bearing: -5
                 },
                 mapAnimation: 'flyTo',
                 rotateAnimation: false,
@@ -1842,12 +1862,12 @@ var config = {
             },
             {
                 id: 'identifier34_3',
-                alignment: 'left',
+                alignment: 'center',
                 hidden: false,
-                title: 'BOISE',
-                image: './path/to/image/source.png',
-                audio: 'audio here',
-                description: 'BOISE SECTION GOES HERE',
+                title: 'Measure S',
+                image: '',
+                audio: '',
+                description: 'In 2012, when the Post Office defense was in full swing, Berkeley was preparing to vote on its very own sit-lie question, Measure S (it would be the second attempt at a sit-lie ordinance, after a failed 1994 vote). The measure would ban sitting on sidewalks in business districts from 7 a.m. to 10 p.m., and was supported heavily by John Caner, CEO of the Downtown Berkeley Association, who hoped the ordinance would “shoo homeless people away" from the main city commercial districts.” Despite receiving more than $105,080 in donations that year —more than any other campaign in Berkeley — and outraising the measure’s opponents 7 to 1, Measure S failed. This was just two years after San Francisco’s own Civil Sidewalks Ordinance had passed, the very one that First They Came for the Homeless had protested during Occupy. <br> <br> Anti-homeless legislation was on the rise in cities across the United States, and they were largely backed by Business Improvement Districts (BIDs) such as the Downtown Berkeley Association. Sit-lie laws —a gateway piece of anti-homeless legislation— strip individuals of their right to rest, usually citing the encumbrance of that state of rest to the dignity or respect for ‘public space.’',
                 location: {
                     center: [-122.29568, 37.85009],
                     zoom: 15.5,
@@ -1861,13 +1881,53 @@ var config = {
                 onChapterExit: []
             },
             {
-                id: 'chapter_break_8',
+                id: 'identifier34_3_1',
+                alignment: 'center',
+                hidden: false,
+                title: '',
+                image: '',
+                audio: '',
+                description: 'When you go to defend an encampment from eviction in Berkeley, there are regulars –– Copwatchers with handheld cameras, religious groups setting up coffee stations, legal observers from the National Lawyers Guild jotting furiously on their yellow legal pads. Then there’s lawyers like Osha Neumann and Andrea Henson, journalists from Berkeleyside and Street Spirit, members of the People’s Park Committee, Where Do We Go, Consider the Homeless, Suitcase Clinic, the Berkeley Outreach Coalition, and many, many people who were formerly unhoused. If you go to enough evictions, you get a sense of the rhythms of stress and relief throughout the morning. The Copwatchers, by now, know all the officers by name. And everyone calls the Assistant to the City Manager, by his first name –– Peter.',
+                location: {
+                    center: [-122.29568, 37.85009],
+                    zoom: 15.5,
+                    pitch: 65,
+                    bearing: -100
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'identifier34_3_2',
+                alignment: 'left',
+                hidden: false,
+                title: '',
+                image: '',
+                audio: '',
+                description: 'The people who regularly deal with the threat of eviction –– unhoused people and their regular supporters — they know about a law called <i>Boise</i>. In 2018, <i>Martin v. Boise</i> was brought to the Ninth Circuit of Appeals by six homeless individuals against the city of Boise, Idaho. The ruling held that cities cannot enforce anti-camping ordinances if they did not provide an adequate alternative (i.e., enough shelter beds), and that doing so would violate the Eighth Amendment to the U.S. Constitution’s prohibition on Cruel and Unusual Punishment. The case set precedent for nine Western states under the Ninth Circuit: Alaska, Arizona, California, Hawaii, Idaho, Montana, Nevada, Oregon, and Washington. <br> <br> <i>Boise</i> is often cited when police and city officials attempt eviction, because there is rarely an appropriate alternative shelter available in the City of Berkeley. Residents at the city’s newest Grayson Shelter cannot take showers in the building, because the water system in the old warehouse is simply not strong enough for it. The cohabitation model, with no private space, can be traumatizing for many. And for others, the opposite problem –– total fracture from trusted connections within their encampment community. Calling upon Boise is a way to communicate the inherent injustice in the lack of better alternatives for those criminalized for simply not having access to better shelter.',
+                location: {
+                    center: [-122.29568, 37.85009],
+                    zoom: 15.5,
+                    pitch: 65,
+                    bearing: -100
+                },
+                mapAnimation: 'flyTo',
+                rotateAnimation: false,
+                callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
+            {
+                id: 'chapter_break_9',
                 alignment: 'full',
                 hidden: false,
                 title: '',
                 image: '',
                 audio:  '',
-                description: '<span style="font-size: 60px"><b>Chapter 9: The Here There Camp Today</b></span>',
+                description: '<span style="font-size: 60px"><b>Chapter 10: The Here There Camp Today</b></span>',
                 location: {
                     center: [-122.27144, 37.8478],
                     zoom: 14,
@@ -2043,13 +2103,13 @@ var config = {
                 onChapterExit: []
             },
             {
-                id: 'chapter_break9',
+                id: 'chapter_break10',
                 alignment: 'full',
                 hidden: false,
                 title: '',
                 image: '',
                 audio:  '',
-                description: '<span style="font-size: 60px"><b>Chapter 10: Arrival Stories</b></span>',
+                description: '<span style="font-size: 60px"><b>Chapter 11: Arrival Stories</b></span>',
                 location: {
                     center: [-122.27144, 37.8478],
                     zoom: 14,
@@ -2203,13 +2263,13 @@ var config = {
                 onChapterExit: []
             },
             {
-                id: 'chapter_break10',
+                id: 'chapter_break11',
                 alignment: 'full',
                 hidden: false,
                 title: '',
                 image: '',
                 audio:  '',
-                description: '<span style="font-size: 60px"><b>Chapter 11: Housing Successes</b></span>',
+                description: '<span style="font-size: 60px"><b>Chapter 12: Housing Successes</b></span>',
                 location: {
                     center: [-122.27144, 37.8478],
                     zoom: 14,
