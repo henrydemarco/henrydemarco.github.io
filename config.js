@@ -2331,7 +2331,7 @@ var config = {
                 alignment: 'left',
                 hidden: false,
                 title: '',
-                image: 'Images/water_and_flowers.jpg',
+                image: 'Images/flowers_and_water.jpg',
                 audio: '',
                 description: 'Finding success through the camp necessarily looks different for different people, depending on their needs and goals. For some, that success took the form of full time housing. For others, it was gaining a greater sense of wellbeing and agency. The immense struggles that residents faced when they entered the camp were varied and highly personal, but in many cases, the atmosphere of the camp afforded an opportunity to confront and address traumas, instability, discrimination, and a wide range of other issues. Striking the requisite balance between protest movement and support system is a challenge that is difficult to fully express, and the camp’s success in doing so is a testament to the brilliance and tenacity of its residents.',
                 location: {
