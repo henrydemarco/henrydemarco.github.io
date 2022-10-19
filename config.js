@@ -251,6 +251,13 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
+            /* I think the code for resizing on mobile should go right here, and I think it's supposed to be something like this:
+            @media (max-width: 750px) {
+            .centered, .lefty, .righty, .fully {
+                width: 90vw;
+                margin: 0 auto;
+            }
+            I'm just not sure how to format it correctly. Hmm I'm trying to update the github pages... */
         },
         {
             id: 'other-identifier_2',
