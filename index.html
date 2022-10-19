@@ -38,7 +38,14 @@
             background-size: cover;;
             background-color: #ccccc;
             text-shadow: .5px .5px 3px #000000;
-s        }
+            /* I think the code for resizing on mobile should go right here, and I think it's supposed to be something like this:
+            @media (max-width: 750px) {
+            .centered, .lefty, .righty, .fully {
+                width: 90vw;
+                margin: 0 auto;
+            }
+            I'm just not sure how to format it correctly.  */
+        }
         #header h1, #header h2, #header p {
             margin: 0;
             padding: 2vh 2vw;
@@ -195,12 +202,12 @@ s        }
             margin: auto;
         }
         .light {
-            color: #330000;
-            background-color: #E0DDCF;
+            color: #1C3738;
+            background-color: #f0f8d3;
         }
         .dark {
-            color: #330000;
-            background-color: #E0DDCF;
+            color: #1C3738;
+            background-color: #f0f8d3;
         }
         .step {
             padding-bottom: 50vh;
@@ -370,6 +377,12 @@ s        }
         if (record.audio2) {
             var audioWrapper = addAudioMp3(record.audio2);
             chapter.appendChild(audioWrapper);
+        }
+
+        if (record.description3) {
+            var story = document.createElement('p');
+            story.innerHTML = record.description3;
+            chapter.appendChild(story);
         }
 
         container.setAttribute('id', record.id);
